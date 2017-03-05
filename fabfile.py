@@ -12,6 +12,11 @@ nginx = tasks.DockerTasks(
         },
     ),
     hosts=all_hosts[:1],
-    # registry = 'docker.io'
-    # account = 'renskiy'
+    # registry='docker.io',
+    # account='renskiy',
+    # migrate_commands=True,
+    # backup_commands=True,
+    # pull_command=True,
+    # update_command=True,
+    # revert_command=True,
 )

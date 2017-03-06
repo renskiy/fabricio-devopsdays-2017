@@ -3,6 +3,7 @@ from fabricio import tasks, docker
 from fabricio.misc import AvailableVagrantHosts
 
 all_hosts = AvailableVagrantHosts(guest_network_interface='eth1')
+# all_hosts = ['localhost'] * 3
 
 fab.env.roledefs.update(
     # you can set up default roles here

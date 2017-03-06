@@ -4,20 +4,35 @@ Practical materials
 
 ## Requirements
 * Python 2.6 or 2.7
+* Virtualenv
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * [Vagrant](https://www.vagrantup.com/downloads.html)
 * [vagrant-vbguest](https://github.com/dotless-de/vagrant-vbguest)
 * [Docker for Linux](https://docs.docker.com/engine/installation/linux/ubuntu/), [Docker for Mac](https://docs.docker.com/docker-for-mac/) or [Docker Toolbox](https://www.docker.com/products/docker-toolbox) for Windows*
-* [Fabricio](https://pypi.python.org/pypi?name=fabricio&:action=display) 0.3.21+
 * Registered account on [hub.docker.com](https://hub.docker.com)
 
 \* Windows users cannot use "native" Docker and VirtualBox at the same time. This caused by incompatibility of VirtualBox with Microsoft Hyper-V technology used by Docker.
 
 ## Installation and setup
 
-Create 3 Virtual Machines with Docker by running following command:
+(optional) Enable SSH access on your computer to allow Fabricio to deploy containers and services to the localhost.
+
+(recommended) Create 3 Virtual Machines with Docker by running following command:
 
     vagrant up
+    
+Clone this repository and install necessary requirements:
+
+    git clone https://github.com/renskiy/fabricio-devopsdays-2017.git
+    cd fabricio-devopsdays-2017
+    virtualenv fabricio && source fabricio/bin/activate
+    pip install -r requirements.txt
+    
+Pull following Docker images:
+
+    docker pull nginx:stable-alpine
+    docker pull nginx:1.11-alpine
+    docker pull registry:2
 
 ## Scenarios
 
@@ -41,7 +56,7 @@ How to build Docker image before deploy.
     
 Docker services deploy. Parallel deploy. Failover deploy.
 
-### Infrastructures
+### Select infrastructure to deploy
 
     fab --fabfile fabfile_infrastructure --list
     

@@ -16,7 +16,12 @@ Vagrant.configure('2') do |config|
       host.vm.network :forwarded_port, guest: 80, host: public_port
 
       # install Docker
-      host.vm.provision 'docker', images: ["nginx:stable-alpine", "nginx:1.11-alpine"]
+      host.vm.provision 'docker',
+        images: [
+          "nginx:stable-alpine",
+          "nginx:1.11-alpine",
+          "postgres:9.6-alpine",
+        ]
 
     end
 

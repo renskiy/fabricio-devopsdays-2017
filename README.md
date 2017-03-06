@@ -43,7 +43,7 @@ Docker services deploy. Parallel deploy. Failover deploy.
 
 ### Infrastructures
 
-    fab --fabfile fabfile_infrastructures --list
+    fab --fabfile fabfile_infrastructure --list
     
 Defining roles and infrastructures. Per infrastructure customization.
 

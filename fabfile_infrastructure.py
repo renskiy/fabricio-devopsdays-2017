@@ -32,6 +32,15 @@ def docker3(account):
         },
     )
 
+
+@tasks.infrastructure
+def no_hosts():
+    fab.env.update(
+        roledefs={
+            'web': [],
+        },
+    )
+
 web = tasks.ImageBuildDockerTasks(
     service=docker.Container(
         name='web',

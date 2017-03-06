@@ -18,3 +18,37 @@ Practical materials
 Create 3 Virtual Machines with Docker by running following command:
 
     vagrant up
+
+## Scenarios
+
+List of scenarios which will be discussed during master-class.
+
+### Hello World
+
+    fab --list
+    
+Shows how to deploy and rollback basic containers. Available customization options (including tags, custom Docker registry, registry account, SSH tunneling, etc.).
+
+### Building images
+
+    fab --fabfile fabfile_build --list
+    
+How to build Docker image before deploy.
+
+### Docker services (swarm mode)
+
+    fab --fabfile fabfile_swarm --list
+    
+Docker services deploy. Parallel deploy. Failover deploy.
+
+### Infrastructures
+
+    fab --fabfile fabfile_infrastructures --list
+    
+Defining roles and infrastructures. Per infrastructure customization.
+
+### (optional) PostgreSQL master-slave cluster
+
+    fab --fabfile fabfile_postgres --list
+
+Deploying master-slave configuration of PostgreSQL. Configuration. Master promotion. Adding new slaves.

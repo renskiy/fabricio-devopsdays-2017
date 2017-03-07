@@ -4,8 +4,9 @@ Practical materials for using [Fabricio](https://github.com/renskiy/fabricio) as
 
 ## Requirements
 
-* Python 2.6 or 2.7
-* Virtualenv
+* Access to the Internet (you will have to use it in most scenarios)
+* [Python](https://www.python.org/downloads/) 2.6 or 2.7
+* [Virtualenv](https://virtualenv.pypa.io/en/stable/installation/)
 * (recommended) [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * (recommended) [Vagrant](https://www.vagrantup.com/downloads.html)
 * (recommended) [vagrant-vbguest](https://github.com/dotless-de/vagrant-vbguest)

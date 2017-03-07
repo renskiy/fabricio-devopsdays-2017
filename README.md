@@ -1,13 +1,14 @@
 # fabricio-devopsdays-2017
 
-Practical materials
+Practical materials for using [Fabricio](https://github.com/renskiy/fabricio) as a Docker containers and services deploy tool.
 
 ## Requirements
+
 * Python 2.6 or 2.7
 * Virtualenv
 * (recommended) [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * (recommended) [Vagrant](https://www.vagrantup.com/downloads.html)
-* (optional) [vagrant-vbguest](https://github.com/dotless-de/vagrant-vbguest)
+* (recommended) [vagrant-vbguest](https://github.com/dotless-de/vagrant-vbguest)
 * [Docker for Linux](https://docs.docker.com/engine/installation/linux/ubuntu/), [Docker for Mac](https://docs.docker.com/docker-for-mac/) or [Docker Toolbox](https://www.docker.com/products/docker-toolbox) for Windows*
 * Registered account on [hub.docker.com](https://hub.docker.com)
 
@@ -15,7 +16,7 @@ Practical materials
 
 ## Installation and setup
 
-(optional) Enable SSH access on your computer to allow Fabricio to deploy containers and services to the localhost.
+(optional) If you don't want to use VirtualBox and Vagrant, you can instead enable SSH access on your computer to allow Fabricio to deploy containers and services to the localhost. However, such way has some limitations in use (e.g. you can not try multi-host configurations like "PostgreSQL master-slave cluster").
 
 (recommended) Create 3 Virtual Machines with Docker by running following command:
 

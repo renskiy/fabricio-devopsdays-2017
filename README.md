@@ -6,7 +6,7 @@ Practical materials for using [Fabricio](https://github.com/renskiy/fabricio) as
 
 * Access to the Internet (you will have to use it in most scenarios)
 * [Python](https://www.python.org/downloads/) 2.6 or 2.7
-* [Virtualenv](https://virtualenv.pypa.io/en/stable/installation/)
+* (optional) [Virtualenv](https://virtualenv.pypa.io/en/stable/installation/)
 * (recommended) [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * (recommended) [Vagrant](https://www.vagrantup.com/downloads.html)
 * (recommended) [vagrant-vbguest](https://github.com/dotless-de/vagrant-vbguest)
@@ -23,14 +23,30 @@ Practical materials for using [Fabricio](https://github.com/renskiy/fabricio) as
 
     vagrant up
     
-Clone this repository and install necessary requirements:
+Clone this repository and go to its directory:
 
     git clone https://github.com/renskiy/fabricio-devopsdays-2017.git
     cd fabricio-devopsdays-2017
-    virtualenv fabricio && source fabricio/bin/activate
+    
+Create and activate virtualenv (you can safely skip this step if you wish to install Fabricio for all users):
+    
+    # Linux and macOS
+    virtualenv fabricio
+    source fabricio/bin/activate
+    
+    # Windows
+    virtualenv fabricio
+    fabricio\Scripts\activate
+
+Install necessary Python packages (without virtualenv this command requires root/admin privileges):
+
     pip install -r requirements.txt
     
-Pull following Docker images:
+Check if everything is OK:
+
+    fab --version
+    
+Pull following Docker images (Linux users should add current user to 'docker' group to allow execute Docker commands without `sudo`):
 
     docker pull nginx:stable-alpine
     docker pull nginx:1.11-alpine

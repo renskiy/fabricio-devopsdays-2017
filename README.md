@@ -46,6 +46,8 @@ Check if everything is OK:
 
     fab --version
     
+(Windows only) If you are using Docker Machine (Docker Toolbox) then you should follow instructions from `docker-machine env` command to setup docker client.
+    
 Pull following Docker images (Linux users should add current user to 'docker' group to allow execute Docker commands without `sudo`):
 
     docker pull nginx:stable-alpine

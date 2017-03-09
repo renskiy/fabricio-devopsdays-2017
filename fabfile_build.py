@@ -13,5 +13,5 @@ custom = tasks.ImageBuildDockerTasks(
         },
     ),
     hosts=all_hosts[:1],
-    account='renskiy',
+    account='renskiy',  # !! change this to your hub.docker.com account name !!
 )

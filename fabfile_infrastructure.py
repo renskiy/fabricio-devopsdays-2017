@@ -21,7 +21,7 @@ def docker2():
 
 
 @tasks.infrastructure(color=colors.red)
-def docker3(account):
+def docker3(account=None):
     # web.registry = 'localhost:5000'
     # web.ssh_tunnel_port = 5000
     web.account = account

@@ -13,7 +13,7 @@ nginx = tasks.DockerTasks(
         },
     ),
     hosts=all_hosts[:1],
-    # account='renskiy',
+    # account='renskiy',  # !! change this to your hub.docker.com account name !!
     # registry='localhost:5000',
     # ssh_tunnel_port=5000,
     # migrate_commands=True,

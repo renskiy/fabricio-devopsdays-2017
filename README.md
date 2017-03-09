@@ -56,7 +56,7 @@ Pull following Docker images (Linux users should add current user to 'docker' gr
 
 ## Scenarios
 
-List of scenarios which will be discussed during master-class.
+List of scenarios which will be discussed during the master-class. Full list of commands used in each scenario can be found in [cmd_list.sh](cmd_list.sh).
 
 ### Hello World
 

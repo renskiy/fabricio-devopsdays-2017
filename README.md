@@ -6,7 +6,8 @@ Practical materials for using [Fabricio](https://github.com/renskiy/fabricio) as
 
 * Access to the Internet (you will have to use it in most scenarios)
 * [Python](https://www.python.org/downloads/) 2.6 or 2.7
-* (optional) [Virtualenv](https://virtualenv.pypa.io/en/stable/installation/)
+* pip ([macOS](http://softwaretester.info/install-and-upgrade-pip-on-mac-os-x/), [Windows](https://github.com/BurntSushi/nfldb/wiki/Python-&-pip-Windows-installation#pip-install), [Linux](https://packaging.python.org/install_requirements_linux/))
+* (optional) virtualenv (`[sudo] pip install virtualenv`)
 * (recommended) [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * (recommended) [Vagrant](https://www.vagrantup.com/downloads.html)
 * (recommended) [vagrant-vbguest](https://github.com/dotless-de/vagrant-vbguest)

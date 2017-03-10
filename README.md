@@ -19,15 +19,15 @@ Practical materials for using [Fabricio](https://github.com/renskiy/fabricio) as
 ## Installation and setup
 
 (optional) If you don't want to use VirtualBox and Vagrant, you can instead enable SSH access on your computer to allow Fabricio to deploy containers and services to the localhost. However, such way has some limitations in use (e.g. you can not try multi-host configurations like "PostgreSQL master-slave cluster").
-
-(recommended) Create 3 Virtual Machines with Docker by running following command:
-
-    vagrant up
     
 Clone this repository and go to its directory:
 
     git clone https://github.com/renskiy/fabricio-devopsdays-2017.git
     cd fabricio-devopsdays-2017
+
+(recommended) Create 3 Virtual Machines with Docker by running following command:
+
+    vagrant up
     
 Create and activate virtualenv (you can safely skip this step if you wish to install Fabricio for all users):
     

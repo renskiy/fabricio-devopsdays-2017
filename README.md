@@ -41,7 +41,7 @@ Create and activate virtualenv (you can safely skip this step if you wish to ins
 
 Install necessary Python packages (without virtualenv this command may require root/admin privileges):
 
-    pip install -r requirements.txt
+    [sudo] pip install -r requirements.txt
     
 Check if everything is OK:
 

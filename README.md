@@ -83,8 +83,12 @@ Docker services deploy. Parallel deploy. Failover deploy.
     
 Defining roles and infrastructures. Per infrastructure customization.
 
-### (optional) PostgreSQL master-slave cluster
+### PostgreSQL master-slave cluster
 
     fab --fabfile fabfile_postgres --list
 
 Deploying master-slave configuration of PostgreSQL. Configuration. Master promotion. Adding new slaves.
+
+### Bonus scenario
+
+    fab --fabfile fabfile_bonus --list

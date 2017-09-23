@@ -2,6 +2,10 @@
 
 Practical materials for using [Fabricio](https://github.com/renskiy/fabricio) as a Docker containers and services deploy tool.
 
+## Slides
+
+You can find slides with additional instructions [here](DevOpsDays Fabricio master-class.pptx).
+
 ## Requirements
 
 * Access to the Internet (you will have to use it in most scenarios)
@@ -14,7 +18,7 @@ Practical materials for using [Fabricio](https://github.com/renskiy/fabricio) as
 * [Docker for Linux](https://docs.docker.com/engine/installation/linux/ubuntu/), [Docker for Mac](https://docs.docker.com/docker-for-mac/) or [Docker Toolbox](https://www.docker.com/products/docker-toolbox) for Windows*
 * Registered account on [hub.docker.com](https://hub.docker.com)
 
-\* Windows users cannot use "native" Docker and VirtualBox at the same time. This caused by incompatibility of VirtualBox with Microsoft Hyper-V technology used by Docker.
+\* Windows users cannot use "native" Docker and VirtualBox at the same time. This caused by incompatibility of VirtualBox with Microsoft Hyper-V technology used by Docker (by March 2017).
 
 ## Installation and setup
 

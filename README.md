@@ -4,7 +4,7 @@ Practical materials for using [Fabricio](https://github.com/renskiy/fabricio) as
 
 ## Slides
 
-You can find slides with additional instructions [here](DevOpsDays Fabricio master-class.pptx).
+You can find slides with additional instructions [here](fabricio-master-class.pptx).
 
 ## Requirements
 

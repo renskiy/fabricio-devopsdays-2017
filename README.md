@@ -43,9 +43,9 @@ Create and activate virtualenv (you can safely skip this step if you wish to ins
     virtualenv fabricio
     fabricio\Scripts\activate
 
-Install necessary Python packages (without virtualenv this command may require root/admin privileges):
+Install [Fabricio](https://github.com/renskiy/fabricio#install):
 
-    [sudo] pip install -r requirements.txt
+    pip install --upgrade fabricio
     
 Check if everything is OK:
 
